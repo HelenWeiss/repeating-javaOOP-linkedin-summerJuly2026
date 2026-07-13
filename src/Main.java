@@ -70,7 +70,7 @@ public class Main {
         System.out.println("A salary of " + employeeTwo.name + " is " + employeeTwo.salary);
 */
 
-        // Practice, class Bank (Encapsulation)
+        // Practice, class BankAccount (Encapsulation)
 /*
         BankAccount bankAccount = new BankAccount("Wonder Woman",1000);
 
@@ -82,6 +82,8 @@ public class Main {
         System.out.println(bankAccount.getBalance());
 */
 
-        // Practice, class (Inheritance)
+        // Practice, super class Emplozee, subclasses Salesperson ans Analyst (Inheritance)
+
+
     }
 }
