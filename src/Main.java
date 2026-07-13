@@ -5,7 +5,7 @@ public class Main {
     public static void main (String [] args) {
 
         // Practice: class Tree, enum TreeType
-/*
+
         Tree myFavoriteOakTreee = new Tree(25,5, TreeType.OAK);
         myFavoriteOakTreee.grow();
         //System.out.println(myFavoriteOakTreee.treeType); // to fix (now var is red) make "public" or delete "private" for double heightFt; double trunkDiameterInches; TreeType treeType;
@@ -24,8 +24,8 @@ public class Main {
 
         // optimized code upper with messaging "That's a tall tree" (class Main, rows 12-23)
         // via method announceTallTree in a class Tree (rows 21-24)
-        Tree myFavoriteOakTree = new Tree(120,12, TreeType.OAK);
-        Tree myFavoriteMapleTree = new Tree(90,30, TreeType.MAPLE);
+        //Tree myFavoriteOakTree = new Tree(120,12, TreeType.OAK);
+        //Tree myFavoriteMapleTree = new Tree(90,30, TreeType.MAPLE);
 
         myFavoriteOakTree.announceTallTree();
         myFavoriteMapleTree.announceTallTree();
@@ -40,10 +40,17 @@ public class Main {
 
         Color brightBlue = myDefaultBlue.brighter();
 
-        //System.out.println(myFavoriteMapleTree.treeType); // to fix (now var is red) make "public" or delete "private" for double heightFt; double trunkDiameterInches; TreeType treeType;
-        //System.out.println(myFavoriteMapleTree.heightFT); // to fix (now var is red) make "public" or delete "private" for double heightFt; double trunkDiameterInches; TreeType treeType;
-        //System.out.println(myFavoriteMapleTree.trunkDiameterInches); // to fix (now var is red) make "public" or delete "private" for double heightFt; double trunkDiameterInches; TreeType treeType;
-*/
+        // to fix (now var is red) make "public" or delete "private"
+        // for double heightFt; double trunkDiameterInches; TreeType treeType;
+        //System.out.println(myFavoriteMapleTree.treeType);
+        //System.out.println(myFavoriteMapleTree.heightFT);
+        //System.out.println(myFavoriteMapleTree.trunkDiameterInches);
+
+        System.out.println(myFavoriteMapleTree.getTreeType());
+        System.out.println(myFavoriteMapleTree.getHeightFT());
+        System.out.println(myFavoriteMapleTree.getTrunkDiameterInches());
+
+
         // Practice, class Employee
 /*
         // would be for creating Objects without constructor in class Employee

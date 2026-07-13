@@ -33,4 +33,16 @@ public class Tree {
             System.out.println("That's a tall " + this.treeType + " tree!");
         }
     }
+
+    public double getHeightFT() {
+            return heightFt;
+    }
+
+    public double getTrunkDiameterInches() {
+            return trunkDiameterInches;
+    }
+
+    public TreeType getTreeType() {
+        return treeType;
+    }
 }
