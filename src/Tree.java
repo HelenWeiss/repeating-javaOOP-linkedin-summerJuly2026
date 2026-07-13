@@ -6,7 +6,7 @@ public class Tree {
 
     // constructor
     Tree(double heightFt, double trunkDiameterInches, TreeType treeType) {
-        this.treeType = treeType;
+        this.heightFt = heightFt;
         this.trunkDiameterInches = trunkDiameterInches;
         this.treeType = treeType;
     }
