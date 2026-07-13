@@ -71,7 +71,7 @@ public class Main {
 */
 
         // Practice, class Bank (Encapsulation)
-
+/*
         BankAccount bankAccount = new BankAccount("Wonder Woman",1000);
 
         bankAccount.withdraw(500);
@@ -80,6 +80,8 @@ public class Main {
 
         System.out.println(bankAccount.getOwner());
         System.out.println(bankAccount.getBalance());
+*/
 
+        // Practice, class (Inheritance)
     }
 }
