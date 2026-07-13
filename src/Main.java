@@ -54,7 +54,7 @@ public class Main {
         myFavoriteMapleTree.grow();
 */
 
-        // Practice, class Employee (Classes and Objects)
+        // Practice: class Employee (Classes and Objects)
 /*
         // would be for creating Objects without constructor in class Employee
         //Employee employeeOne = new Employee();
@@ -70,7 +70,7 @@ public class Main {
         System.out.println("A salary of " + employeeTwo.name + " is " + employeeTwo.salary);
 */
 
-        // Practice, class BankAccount (Encapsulation)
+        // Practice: class BankAccount (Encapsulation)
 /*
         BankAccount bankAccount = new BankAccount("Wonder Woman",1000);
 
@@ -82,8 +82,18 @@ public class Main {
         System.out.println(bankAccount.getBalance());
 */
 
-        // Practice, super class Emplozee, subclasses Salesperson ans Analyst (Inheritance)
+        // Practice: super class EmployeeSuperClass, subclasses Salesperson ans Analyst (Inheritance)
 
+        // Practice: to use built-in class in Java as superclass ArrayList, to create subclass ModArrayList
 
+        ModArrayList list = new ModArrayList();
+        list.add(0);
+        list.add(10);
+        list.add(20);
+        list.add(30);
+
+        System.out.println(list.getUsingMod(1));
+        System.out.println(list.getUsingMod(-2));
+        System.out.println(list.getUsingMod(40));
     }
 }
