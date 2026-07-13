@@ -4,8 +4,8 @@ public class Main {
 
     public static void main (String [] args) {
 
-        // Practice: class Tree, enum TreeType
-
+        // Practice: class Tree, enum TreeType (Classes and Objects, in the end Encapsulation)
+/*
         Tree myFavoriteOakTreee = new Tree(25,5, TreeType.OAK);
         myFavoriteOakTreee.grow();
         //System.out.println(myFavoriteOakTreee.treeType); // to fix (now var is red) make "public" or delete "private" for double heightFt; double trunkDiameterInches; TreeType treeType;
@@ -52,9 +52,9 @@ public class Main {
 
         //myFavoriteMapleTree.heightFt = 180; // heightFt is red cause it became private
         myFavoriteMapleTree.grow();
+*/
 
-
-        // Practice, class Employee
+        // Practice, class Employee (Classes and Objects)
 /*
         // would be for creating Objects without constructor in class Employee
         //Employee employeeOne = new Employee();
@@ -69,6 +69,17 @@ public class Main {
         System.out.println("A salary of " + employeeOne.name + " is " + employeeOne.salary);
         System.out.println("A salary of " + employeeTwo.name + " is " + employeeTwo.salary);
 */
+
+        // Practice, class Bank (Encapsulation)
+
+        BankAccount bankAccount = new BankAccount("Wonder Woman",1000);
+
+        bankAccount.withdraw(500);
+        bankAccount.deposit(5000);
+        bankAccount.withdraw(2000);
+
+        System.out.println(bankAccount.getOwner());
+        System.out.println(bankAccount.getBalance());
 
     }
 }
