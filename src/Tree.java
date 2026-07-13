@@ -42,6 +42,10 @@ public class Tree {
             return trunkDiameterInches;
     }
 
+    public void setTrunkDiameterInches(double trunkDiameterInches) {
+        this.trunkDiameterInches = trunkDiameterInches;
+    }
+
     public TreeType getTreeType() {
         return treeType;
     }

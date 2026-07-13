@@ -50,6 +50,9 @@ public class Main {
         System.out.println(myFavoriteMapleTree.getHeightFT());
         System.out.println(myFavoriteMapleTree.getTrunkDiameterInches());
 
+        //myFavoriteMapleTree.heightFt = 180; // heightFt is red cause it became private
+        myFavoriteMapleTree.grow();
+
 
         // Practice, class Employee
 /*
