@@ -1,6 +1,7 @@
 import java.awt.Color;
 import java.util.ArrayList;
 
+
 public class Main {
 
     public static void main (String [] args) {
@@ -86,7 +87,6 @@ public class Main {
         // Practice: super class EmployeeSuperClass, subclasses Salesperson ans Analyst (Inheritance)
 
         // Practice: to use built-in class in Java as superclass ArrayList, to create subclass ModArrayList
-
 /*
         ModArrayList list = new ModArrayList();
         list.add(0);
@@ -115,6 +115,7 @@ public class Main {
 */
 
         // Practice: class OddArrayList (Polymorphism)
+        // Writing reusable algorithms with runtime polymorphism
 
         OddArrayList oddListy = new OddArrayList(1, 2, 3, 4, 7, 9, -13);
 
@@ -132,6 +133,23 @@ public class Main {
         listy.add(-13);
 
         System.out.println(listy);
+
+
+        // Practice: class AddRandomNumber (Polymorphism)
+        // Exploring different forms in a single object
+
+        OddArrayList oddArrayList = new OddArrayList(7);
+        oddListy.add(1);
+        oddListy.add(2);
+        AddRandomNumber.addRandomNumber(oddListy);
+        System.out.println(oddListy.size());
+
+        ArrayList<Integer> listyOdd = new ArrayList<>();
+        listyOdd.add(1);
+        listyOdd.add(2);
+        AddRandomNumber.addRandomNumber(listyOdd);
+        System.out.println(listyOdd.size());
+
 
     }
 }
