@@ -1,10 +1,9 @@
-import java.awt.Color;
-import java.util.ArrayList;
+import java.io.IOException;
 
 
 public class Main {
 
-    public static void main (String [] args) {
+    public static void main (String [] args) throws IOException {     // only for Abstract class -> throws IOException
 
         // Practice: class Tree, enum TreeType (Classes and Objects, in the end Encapsulation)
 /*
@@ -99,7 +98,8 @@ public class Main {
         System.out.println(list.getUsingMod(40));
  */
 
-        // Practice: Encapsulation and Inheritance
+        // Practice: classes LovePassionWildFreedom and JoyrneyBerlinStralsund
+        // (Encapsulation and Inheritance)
         // my own task with superclass LovePassionWildFreedom and childclass JoyrneyBerlinStralsund
 /*
         LovePassionWildFreedom testK = new LovePassionWildFreedom("Ken", 52, "UK");
@@ -153,7 +153,7 @@ public class Main {
 */
 
         // Practice: classes Contact and PhoneNumber (Polymorphism)
-
+/*
         Contact contactOne = new Contact("Sally",
                 new PhoneNumber("2637263737"));
         Contact contactTwo = new Contact("Maggie Smith",
@@ -170,6 +170,14 @@ public class Main {
         System.out.println(contactThree);
         System.out.println(contactFour);
         System.out.println(contactFive);
+*/
 
+        // Practice: classes AbstractFileReader and DigitsOnlyFileReader, message.txt
+        // (Abstraction)
+
+        DigitsOnlyFileReader digitsOnlyFileReader = new DigitsOnlyFileReader("message.txt");
+
+        System.out.println(digitsOnlyFileReader.readFile());
+        System.out.println(digitsOnlyFileReader.getPath());
     }
 }
