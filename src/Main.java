@@ -116,7 +116,7 @@ public class Main {
 
         // Practice: class OddArrayList (Polymorphism)
         // Writing reusable algorithms with runtime polymorphism
-
+/*
         OddArrayList oddListy = new OddArrayList(1, 2, 3, 4, 7, 9, -13);
 
         System.out.println(oddListy);
@@ -133,11 +133,12 @@ public class Main {
         listy.add(-13);
 
         System.out.println(listy);
-
+*/
 
         // Practice: class AddRandomNumber (Polymorphism)
         // Exploring different forms in a single object
-
+        // works with UNcommented Practice: class OddArrayList (Polymorphism)
+/*
         OddArrayList oddArrayList = new OddArrayList(7);
         oddListy.add(1);
         oddListy.add(2);
@@ -149,7 +150,26 @@ public class Main {
         listyOdd.add(2);
         AddRandomNumber.addRandomNumber(listyOdd);
         System.out.println(listyOdd.size());
+*/
 
+        // Practice: classes Contact and PhoneNumber (Polymorphism)
+
+        Contact contactOne = new Contact("Sally",
+                new PhoneNumber("2637263737"));
+        Contact contactTwo = new Contact("Maggie Smith",
+                new PhoneNumber("9384713401"));
+        Contact contactThree = new Contact("Roger Williams",
+                new PhoneNumber("448474734929"));
+        Contact contactFour = new Contact("David Jones",
+                "david_jones@bluewire.com");
+        Contact contactFive = new Contact("Sarah Brown",
+                new PhoneNumber("2029384982"), "sarahb@tech.com");
+
+        System.out.println(contactOne);
+        System.out.println(contactTwo);
+        System.out.println(contactThree);
+        System.out.println(contactFour);
+        System.out.println(contactFive);
 
     }
 }
