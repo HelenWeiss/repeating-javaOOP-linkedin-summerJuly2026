@@ -1,4 +1,5 @@
 import java.awt.Color;
+import java.util.ArrayList;
 
 public class Main {
 
@@ -85,6 +86,7 @@ public class Main {
         // Practice: super class EmployeeSuperClass, subclasses Salesperson ans Analyst (Inheritance)
 
         // Practice: to use built-in class in Java as superclass ArrayList, to create subclass ModArrayList
+
 /*
         ModArrayList list = new ModArrayList();
         list.add(0);
@@ -112,6 +114,24 @@ public class Main {
         testO.startYourTrip();
 */
 
-        // Practice:
+        // Practice: class OddArrayList (Polymorphism)
+
+        OddArrayList oddListy = new OddArrayList(1, 2, 3, 4, 7, 9, -13);
+
+        System.out.println(oddListy);
+
+        ArrayList<Integer> listy = new ArrayList<>();
+
+        ModArrayList list = new ModArrayList();
+        listy.add(1);
+        listy.add(2);
+        listy.add(3);
+        listy.add(4);
+        listy.add(7);
+        listy.add(9);
+        listy.add(-13);
+
+        System.out.println(listy);
+
     }
 }
