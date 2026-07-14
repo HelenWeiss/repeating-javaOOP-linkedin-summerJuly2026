@@ -174,10 +174,27 @@ public class Main {
 
         // Practice: classes AbstractFileReader and DigitsOnlyFileReader, message.txt
         // (Abstraction)
-
+/*
         DigitsOnlyFileReader digitsOnlyFileReader = new DigitsOnlyFileReader("message.txt");
 
         System.out.println(digitsOnlyFileReader.readFile());
         System.out.println(digitsOnlyFileReader.getPath());
+ */
+
+        // Practice: classes
+        // (Abstraction using Interfaces)
+
+        PasswordChangeEvent eventOne = new PasswordChangeEvent("321928399");
+        AccountTransferEvent eventTwo = new AccountTransferEvent("1936428194");
+        MissedPaymentEvent eventThree = new MissedPaymentEvent("93827451");
+
+        Event[] events = {eventOne, eventTwo, eventThree};
+
+        for (Event e : events) {
+            System.out.println(e.getTimeStamp());
+            e.process();
+            System.out.println();
+        }
+
     }
 }
