@@ -4,6 +4,7 @@ public class Salesperson extends EmployeeSuperClass {
 
     private double commissionPercentage;
 
+    // constructor
     public Salesperson(String name, double salary, int age,
                        double commissionPercentage) {
         super(name, salary, age);

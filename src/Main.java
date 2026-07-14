@@ -85,7 +85,7 @@ public class Main {
         // Practice: super class EmployeeSuperClass, subclasses Salesperson ans Analyst (Inheritance)
 
         // Practice: to use built-in class in Java as superclass ArrayList, to create subclass ModArrayList
-
+/*
         ModArrayList list = new ModArrayList();
         list.add(0);
         list.add(10);
@@ -95,5 +95,23 @@ public class Main {
         System.out.println(list.getUsingMod(1));
         System.out.println(list.getUsingMod(-2));
         System.out.println(list.getUsingMod(40));
+ */
+
+        // Practice: Encapsulation and Inheritance
+        // my own task with superclass LovePassionWildFreedom and childclass JoyrneyBerlinStralsund
+/*
+        LovePassionWildFreedom testK = new LovePassionWildFreedom("Ken", 52, "UK");
+        String name = "Ken";
+        int age = 52;
+        String location = "UK";
+        testK.makeYourChoice();
+
+        JoyrneyBerlinStralsund testO = new JoyrneyBerlinStralsund("Helen", 39, "BSA",
+                                                                  "Berlin -> Stralsund");
+        String locationNew = "Berlin -> Stralsund";
+        testO.startYourTrip();
+*/
+
+        // Practice:
     }
 }
